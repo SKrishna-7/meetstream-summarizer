@@ -22,6 +22,21 @@ This project uses an OpenAI-compatible model via the Groq API.
 * The code is structured so switching to ChatOpenAI only requires changing the LLM initialization
 
 
+## Error Handling
+
+* The tool gracefully handles:
+* Missing or invalid file paths
+* Empty transcript files
+* Missing API keys
+* Dependency issues
+
+## Switching to OpenAI API (Optional)
+
+1. To use OpenAI directly:
+2. Replace ChatGroq with ChatOpenAI
+3. Set OPENAI_API_KEY in .env
+3. Uncomment the OpenAI-related code
+
 ## Tech Stack
 
 * Python 3.11
@@ -30,6 +45,9 @@ This project uses an OpenAI-compatible model via the Groq API.
 * argparse (CLI parsing)
 * dotenv (environment variables)
 * threading (spinner UX)
+
+
+
 
 ## Installation 
 
@@ -83,9 +101,9 @@ Speaker 1 (Alex): Awesome. Thanks, everyone. Let's break.
 
 ## 📂 Example Output
 
-════════════════════════════════════════
- MEETING SUMMARY
-════════════════════════════════════════
+**════════════════════════════════════════**
+  ##  MEETING SUMMARY
+**════════════════════════════════════════**
 
 **Meeting Summary – API Rate Limiting Feature Launch**
 

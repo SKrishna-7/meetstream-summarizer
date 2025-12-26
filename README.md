@@ -99,7 +99,7 @@ Speaker 1 (Alex): Awesome. Thanks, everyone. Let's break.
 ```
 
 
-## 📂 Example Output
+## Example Output
 
 **════════════════════════════════════════**
   ##  MEETING SUMMARY
